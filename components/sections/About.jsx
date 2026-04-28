@@ -70,6 +70,8 @@ export default function About() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover opacity-80 mix-blend-luminosity group-hover:mix-blend-normal group-hover:opacity-100 transition-all duration-1000 scale-105 group-hover:scale-100"
                   referrerPolicy="no-referrer"
+                  priority
+                  unoptimized
                 />
                 
                 {/* Tech Overlay lines */}
