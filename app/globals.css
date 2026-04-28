@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-inter: var(--font-inter);
+  --font-space: var(--font-space);
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 5, 5, 5;
+    --background-end-rgb: 5, 5, 5;
+  }
+}
+
+/* Webkit Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a35;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4a4a5d;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+}
+
+/* Background grid effect */
+.bg-grid {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
