@@ -64,7 +64,7 @@ export default function About() {
                   If it's a .jpg, rename it or update the src below to '/profile.jpg' 
                 */}
                 <Image 
-                  src="/profile.jpg" 
+                  src="/photo_6003592358680792289_y.jpg" 
                   alt="Bilisa Assefa"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
